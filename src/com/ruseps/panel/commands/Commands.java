@@ -32,6 +32,9 @@ public class Commands {
  
     public static String getPlayerCount(String idk) {
         String playerCount = World.getPlayers().size() + "";
+        /**
+         * Added this for github ;) 
+         * **/
         return playerCount;
     }
    
