@@ -29,7 +29,7 @@ public class GameServer {
 			logger.info("The loader has finished loading utility tasks.");
 			logger.info("CelestialX is now online on port "+GameSettings.GAME_PORT+"!");
 			Server.start();
-	
+			logger.info("Hello from Diogo!");
 
 
 		} catch (Exception ex) {
